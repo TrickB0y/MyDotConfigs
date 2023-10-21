@@ -1,0 +1,10 @@
+[user]
+	name = Marco Antônio R. A. B. Ribeiro
+	email = marcoantoniorabr@gmail.com
+[core]
+	editor = nvim
+	autocrlf = true
+[diff]
+	tool = neovim
+[difftool "neovim"]
+	cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
